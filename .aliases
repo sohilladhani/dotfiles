@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#aliases
+
 alias vim="nvim"
 alias vimdiff="nvim -d"
 alias tmux="tmux -u"
+
+#custom functions
+
+#Credits: https://unix.stackexchange.com/a/125386
+mkcd() { mkdir -p -- "$1" && cd -P -- "$1" }
