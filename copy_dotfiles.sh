@@ -3,4 +3,4 @@
 
 full_path="$(readlink -f ${BASH_SOURCE[0]})"
 full_path_dir="$(dirname $full_path)"
-cp -fv ~/{.vimrc,.tmux.conf,.zshrc,.bashrc,.config/nvim/init.vim,.aliases} $full_path_dir
+cp -fv ~/{.vimrc,.tmux.conf,.zshrc,.bashrc,.config/nvim/init.vim,.aliases,.zprofile} $full_path_dir
